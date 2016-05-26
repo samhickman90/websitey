@@ -1,0 +1,30 @@
+body {
+  font-family: roboto, sans-serif;
+    background-color: #263248;
+    color: #ffffff;
+    margin: auto;
+    text-align : center;
+    position: absolute;
+    height:100%;
+    width:100%;
+}
+
+.container{
+  padding: 5%;
+  position: relative;
+  top: 50%;
+  transform: translateY(-50%);
+  -webkit-transform: translateY(-50%);
+  -ms-transform: translateY(-50%);
+}
+
+.title {
+  font-weight: 500;
+  font-size: 50px;
+  border-bottom: 3px solid #FF9800
+}
+
+.content {
+  font-size: 35px;
+  font-style: italic;
+}
